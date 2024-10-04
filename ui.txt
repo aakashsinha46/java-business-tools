@@ -1,0 +1,9 @@
+Enter the CSV file path: ./inputs/pdm.csv
+Enter the SQL output file path: outputss.sql
+Enter the table name: pdmcase.tproviderwidget
+Enter the column names (comma-separated): id,name,dob,job,salary,refKey,idmod,refkeymod
+Enter the column numbers to be enclosed in single quotes (comma-separated, 1-based index): 2,4
+Enter the column number for which to apply mod function (comma-separated, format: column_number:mod_value): 1:11,5:11
+Do you want to add any new columns to the table? (yes/no): yes
+Enter new column names with data types (comma-separated, format: column_name:data_type): businesskey:number
+    Enter the default value for column 'businesskey' (or 'null' for NULL value): -1
